@@ -1,0 +1,4 @@
+﻿  main.cpp
+  Juez7.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez7\Debug\Juez7.exe
+  Juez7.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez7\Debug\Juez7.pdb (Partial PDB)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(325,5): error MSB3061: Unable to delete file "Debug\Juez7.tlog\unsuccessfulbuild". The process cannot access the file 'C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez7\Juez7\Debug\Juez7.tlog\unsuccessfulbuild' because it is being used by another process.

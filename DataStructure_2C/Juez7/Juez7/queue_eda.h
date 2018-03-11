@@ -1,0 +1,209 @@
+//
+//  queue_eda.h
+//
+//  Implementación del TAD cola con nodos enlazados
+//  y punteros al primero y al último nodo
+//
+//  Estructuras de Datos y Algoritmos
+//  Facultad de Informática
+//  Universidad Complutense de Madrid
+//
+//  Copyright (c) 2016-2018 Alberto Verdejo
+//
+
+#ifndef queue_eda_h
+#define queue_eda_h
+
+#include <iostream>
+#include <fstream>
+#include <stdexcept>  // std::domain_error
+
+template <class T>
+class queue {
+protected:
+
+	/*
+	Nodo que almacena internamente el elemento (de tipo T),
+	y un puntero al nodo siguiente, que puede ser nullptr si
+	el nodo es el último de la lista enlazada.
+	*/
+	struct Nodo {
+		Nodo() : sig(nullptr) {}
+		Nodo(T const& elem, Nodo * si = nullptr) : elem(elem), sig(si) {}
+		T elem;
+		Nodo * sig;
+	};
+
+	// punteros al primer y último elemento
+	Nodo * prim;
+	Nodo * ult;
+
+	// número de elementos en la cola
+	size_t nelems;
+
+public:
+
+	// constructor: cola vacía
+	queue() : prim(nullptr), ult(nullptr), nelems(0) {}
+
+	// destructor
+	~queue() {
+		libera();
+	}
+
+	// constructor por copia
+	queue(queue<T> const& other) {
+		copia(other);
+	}
+
+	// operador de asignación
+	queue<T> & operator=(queue<T> const& other) {
+		if (this != &other) {
+			libera();
+			copia(other);
+		}
+		return *this;
+	}
+
+	// añadir un elemento al final de la cola
+	void push(T const& elem) {
+		Nodo * nuevo = new Nodo(elem);
+
+		if (ult != nullptr)
+			ult->sig = nuevo;
+		ult = nuevo;
+		if (prim == nullptr) // la cola estaba vacía
+			prim = nuevo;
+		++nelems;
+	}
+
+	// consultar el primero de la cola
+	T const& front() const {
+		if (empty())
+			throw std::domain_error("la cola vacia no tiene primero");
+		return prim->elem;
+	}
+
+	// eliminar el primero de la cola
+	void pop() {
+		if (empty())
+			throw std::domain_error("eliminando de una cola vacia");
+		Nodo * a_borrar = prim;
+		prim = prim->sig;
+		if (prim == nullptr) // la cola se ha quedado vacía
+			ult = nullptr;
+		delete a_borrar;
+		--nelems;
+	}
+
+	// consultar si la cola está vacía
+	bool empty() const {
+		return nelems == 0;
+	}
+
+	// consultar el tamaño de la cola
+	size_t size() const {
+		return nelems;
+	}
+
+	// Metodo que copia insertando en el vector copia el doble de elementos
+	void copiaConDoble() {
+		if (empty()) {
+			prim = ult = nullptr;
+			nelems = 0;
+		}
+		else {
+			if (nelems == 2) {
+				Nodo * actual = prim;
+				actual->sig->sig = actual;
+				actual = ult;
+				actual->sig = prim;
+			}
+			else if(nelems > 2) {
+				Nodo * izq = prim;
+				ult = izq;
+				Nodo * actual = izq->sig;
+				Nodo * der = actual->sig;
+
+				while (der->sig != nullptr) {
+					actual->sig = izq;
+					izq = actual;
+					actual = der;
+					der = der->sig;
+				}
+				// lo hacemos para el ultimo caso
+
+				actual->sig = izq;
+				der->sig = actual;
+				prim = der;
+
+			}
+		}
+	}
+
+	// Metodo que copia insertando en el vector copia el doble de elementos
+	void copiaAlReves(queue const& other) {
+		if (other.empty()) {
+			prim = ult = nullptr;
+			nelems = 0;
+		}
+		else {
+			Nodo * act = other.prim; // recorre la cola original
+			Nodo * ant = new Nodo(act->elem); // último nodo copiado
+			ult = ant;
+
+			while (act->sig != nullptr) {
+				act = act->sig;
+				prim = ant = new Nodo(act->elem); // El nuevo se convierte en primero
+				ant->sig = ult;
+				ult = prim;
+			}
+			
+			prim = ant;
+			nelems = other.nelems;
+		}
+	}
+
+	void printQueue() {
+		Nodo * aux = prim;
+		while (aux != nullptr) {
+			std::cout << aux->elem << " ";
+			aux = aux->sig;
+		}
+		ult = nullptr;
+	}
+
+protected:
+
+	void libera() {
+		while (prim != nullptr) {
+			Nodo * a_borrar = prim;
+			prim = prim->sig;
+			delete a_borrar;
+		}
+		ult = nullptr;
+	}
+
+	// this está sin inicializar
+	void copia(queue const& other) {
+		if (other.empty()) {
+			prim = ult = nullptr;
+			nelems = 0;
+		}
+		else {
+			Nodo * act = other.prim; // recorre la cola original
+			Nodo * ant = new Nodo(act->elem); // último nodo copiado
+			prim = ant;
+			while (act->sig != nullptr) {
+				act = act->sig;
+				ant->sig = new Nodo(act->elem);
+				ant = ant->sig;
+			}
+			ult = ant;
+			nelems = other.nelems;
+		}
+	}
+};
+
+#endif // queue_eda_h
+

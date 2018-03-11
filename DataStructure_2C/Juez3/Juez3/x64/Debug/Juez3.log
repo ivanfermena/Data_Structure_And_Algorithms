@@ -1,0 +1,6 @@
+﻿  main.cpp
+  Complejo.cpp
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez3\juez3\complejo.cpp(40): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Juez3.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez3\x64\Debug\Juez3.exe
+  Juez3.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez3\x64\Debug\Juez3.pdb (Partial PDB)

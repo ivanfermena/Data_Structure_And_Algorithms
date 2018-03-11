@@ -1,0 +1,19 @@
+﻿  main.cpp
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez5\juez5\main.cpp(29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez5\juez5\main.cpp(56): note: see reference to function template instantiation 'void resolver<int>(const set<int> &,set<int> &,int)' being compiled
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez5\juez5\conjunto.h(88): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez5\juez5\conjunto.h(77): note: while compiling class template member function 'void set<int>::insert(T)'
+          with
+          [
+              T=int
+          ]
+  c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez5\juez5\main.cpp(19): note: see reference to function template instantiation 'void set<int>::insert(T)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez5\juez5\conjunto.h(40): note: while compiling class template member function 'set<int>::set(std::size_t)'
+  c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez5\juez5\main.cpp(51): note: see reference to function template instantiation 'set<int>::set(std::size_t)' being compiled
+  c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez5\juez5\main.cpp(51): note: see reference to class template instantiation 'set<int>' being compiled
+  Juez5.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez5\x64\Debug\Juez5.exe
+  Juez5.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez5\x64\Debug\Juez5.pdb (Partial PDB)

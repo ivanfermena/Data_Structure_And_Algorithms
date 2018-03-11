@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\ivan fermena\documents\visual studio 2015\projects\juez\juez10\juez10\main.cpp(16): warning C4553: '==': operator has no effect; did you intend '='?
+  Juez10.vcxproj -> C:\Users\Ivan Fermena\Documents\Visual Studio 2015\Projects\Juez\Juez10\Debug\Juez10.exe
+  Juez10.vcxproj -> C:\Users\Ivan Fermena\Documents\Visual Studio 2015\Projects\Juez\Juez10\Debug\Juez10.pdb (Partial PDB)

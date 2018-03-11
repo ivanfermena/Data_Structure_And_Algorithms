@@ -1,0 +1,5 @@
+﻿  source.cpp
+  prueba.cpp
+  Generating Code...
+prueba.obj : error LNK2005: "bool __cdecl resuelveCaso(void)" (?resuelveCaso@@YA_NXZ) already defined in source.obj
+C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez\juez37\x64\Debug\juez37.exe : fatal error LNK1169: one or more multiply defined symbols found

@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): error MSB6003: The specified task executable "link.exe" could not be run. The process cannot access the file 'C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez6\Juez6\Debug\Juez6.tlog\link.read.1.tlog' because it is being used by another process.

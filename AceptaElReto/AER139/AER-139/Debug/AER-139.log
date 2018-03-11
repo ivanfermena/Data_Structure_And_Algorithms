@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\aer\aer-139\aer-139\main.cpp(22): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
+  AER-139.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\AER\AER-139\Debug\AER-139.exe
+  AER-139.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\AER\AER-139\Debug\AER-139.pdb (Partial PDB)

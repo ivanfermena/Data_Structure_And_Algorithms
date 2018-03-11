@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\aer\aer127\aer127\main.cpp(46): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\aer\aer127\aer127\main.cpp(59): warning C4018: '>': signed/unsigned mismatch
+  AER127.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\AER\AER127\Debug\AER127.exe
+  AER127.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\AER\AER127\Debug\AER127.pdb (Partial PDB)

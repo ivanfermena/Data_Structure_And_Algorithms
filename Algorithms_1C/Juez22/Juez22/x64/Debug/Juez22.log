@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez\juez22\juez22\main.cpp(55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Juez22.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez\Juez22\x64\Debug\Juez22.exe
+  Juez22.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez\Juez22\x64\Debug\Juez22.pdb (Partial PDB)

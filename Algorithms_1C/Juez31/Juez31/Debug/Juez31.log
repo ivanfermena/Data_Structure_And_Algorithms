@@ -1,0 +1,5 @@
+﻿  practicaTennis.cpp
+  main.cpp
+  Generating Code...
+practicaTennis.obj : error LNK2005: "bool __cdecl resuelveCaso(void)" (?resuelveCaso@@YA_NXZ) already defined in main.obj
+C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez\Juez31\Debug\Juez31.exe : fatal error LNK1169: one or more multiply defined symbols found

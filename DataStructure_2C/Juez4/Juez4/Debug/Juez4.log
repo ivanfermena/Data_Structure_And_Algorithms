@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez4\juez4\main.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez4\juez4\main.cpp(44): warning C4018: '<': signed/unsigned mismatch
+  Polinomio.cpp
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez4\juez4\polinomio.cpp(17): warning C4018: '<': signed/unsigned mismatch
+  Monomio.cpp
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez2c\juez4\juez4\monomio.cpp(21): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Juez4.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez4\Debug\Juez4.exe
+  Juez4.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez2C\Juez4\Debug\Juez4.pdb (Partial PDB)

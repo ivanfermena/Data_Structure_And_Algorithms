@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez\juez14\juez14\main.cpp(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez\juez14\juez14\main.cpp(17): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan fermena\onedrive - universidad complutense de madrid (ucm)\ucm\visual\juez\juez14\juez14\main.cpp(30): warning C4018: '<': signed/unsigned mismatch
+  Juez14.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez\Juez14\Debug\Juez14.exe
+  Juez14.vcxproj -> C:\Users\Ivan Fermena\OneDrive - Universidad Complutense de Madrid (UCM)\ucm\Visual\Juez\Juez14\Debug\Juez14.pdb (Partial PDB)
