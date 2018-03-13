@@ -23,13 +23,17 @@ public:
 		}
 		else {
 			Nodo * actual = this->prim; // recorre la cola original
+			Nodo * a_borrar = actual->sig;
 
 			while (actual->sig != nullptr && actual->sig->sig != nullptr) {
 				actual->sig = actual->sig->sig;
 				actual = actual->sig;
+				delete a_borrar;
+				a_borrar = actual->sig;
 			}
 
 			if (this->nelems % 2 == 0) {
+				delete a_borrar;
 				actual->sig = nullptr;
 				this->nelems = this->nelems / 2;
 			}

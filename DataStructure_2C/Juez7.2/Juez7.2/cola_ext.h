@@ -25,21 +25,26 @@ public:
 		else {
 			Nodo * actual = this->prim; // recorre la cola original
 			Nodo * anterior = this->prim;
+			Nodo * a_borrar = actual;
 			int countDelete = 0;
 
 			while (actual->sig != nullptr) {
 				if (actual->sig->elem < actual->elem && actual->sig->sig != nullptr) {
 					actual->sig = actual->sig->sig;
+					delete a_borrar;
+					a_borrar = actual->sig;
 					countDelete++;
 				}
 				else {
 					anterior = actual;
 					actual = actual->sig;
+					a_borrar = actual->sig;
 				}
 			}
 
 			if (actual->elem < anterior->elem) {
 				anterior->sig = nullptr;
+				delete actual;
 				this->ult = anterior;
 			}
 			else {

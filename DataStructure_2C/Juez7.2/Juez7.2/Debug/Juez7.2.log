@@ -1,6 +1,2 @@
-﻿  horas.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  main.cpp
-  Juez7.2.vcxproj -> C:\Users\Ivan Fermena\Documents\GitHub\Data_Structure_And_Algorithms\DataStructure_2C\Juez7.2\Debug\Juez7.2.exe
-  Juez7.2.vcxproj -> C:\Users\Ivan Fermena\Documents\GitHub\Data_Structure_And_Algorithms\DataStructure_2C\Juez7.2\Debug\Juez7.2.pdb (Partial PDB)
+﻿  main.cpp
+LINK : fatal error LNK1168: cannot open C:\Users\Ivan Fermena\Documents\GitHub\Data_Structure_And_Algorithms\DataStructure_2C\Juez7.2\Debug\Juez7.2.exe for writing
