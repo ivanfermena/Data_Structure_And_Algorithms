@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\evaluacionv1\evaluacionv1\main.cpp(71): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\evaluacionv1\evaluacionv1\main.cpp(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\evaluacionv1\evaluacionv1\main.cpp(38): warning C4018: '<': signed/unsigned mismatch
+  c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\evaluacionv1\evaluacionv1\main.cpp(24): note: while compiling class template member function 'void InsertaElementos<int>::inserta(std::size_t,InsertaElementos<int> &)'
+  c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\evaluacionv1\evaluacionv1\main.cpp(87): note: see reference to function template instantiation 'void InsertaElementos<int>::inserta(std::size_t,InsertaElementos<int> &)' being compiled
+  c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\evaluacionv1\evaluacionv1\main.cpp(70): note: see reference to class template instantiation 'InsertaElementos<int>' being compiled
+  EvaluacionV1.vcxproj -> C:\Users\Ivan Fermena\Documents\GitHub\Data_Structure_And_Algorithms\DataStructure_2C\EvaluacionV1\Debug\EvaluacionV1.exe
+  EvaluacionV1.vcxproj -> C:\Users\Ivan Fermena\Documents\GitHub\Data_Structure_And_Algorithms\DataStructure_2C\EvaluacionV1\Debug\EvaluacionV1.pdb (Partial PDB)
