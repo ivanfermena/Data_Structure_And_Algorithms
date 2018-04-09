@@ -1,0 +1,32 @@
+﻿  main.cpp
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(221): error C2332: 'class': missing tag name
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(221): error C3306: '<unnamed-tag>': unnamed class template is not allowed
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(46): error C2143: syntax error: missing ')' before 'const'
+  c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(221): note: see reference to class template instantiation '<unnamed-tag><T>' being compiled
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(46): error C2143: syntax error: missing ';' before 'const'
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(46): error C2059: syntax error: ')'
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(46): error C2327: '<unnamed-tag><T>::raiz': is not a type name, static, or enumerator
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(46): error C2065: 'r': undeclared identifier
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(46): error C3861: 'raiz': identifier not found
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(48): error C2098: unexpected token after data member 'r'
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(48): error C2059: syntax error: 'public'
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(214): error C3646: 'begin': unknown override specifier
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(214): error C2059: syntax error: '('
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(214): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(217): error C3646: 'end': unknown override specifier
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(217): error C2059: syntax error: '('
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(217): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(225): error C2988: unrecognizable template declaration/definition
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree_eda.h(225): error C2059: syntax error: '<'
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree.h(35): error C2988: unrecognizable template declaration/definition
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree.h(35): error C2143: syntax error: missing ';' before '<'
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\bintree.h(35): error C2059: syntax error: '<'
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(13): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(13): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(28): error C2065: 'numCasos': undeclared identifier
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(29): error C2065: 'numCasos': undeclared identifier
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(30): error C3861: 'resuelveCaso': identifier not found
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(33): error C3536: 'cinbuf': cannot be used before it is initialized
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(33): error C2664: 'std::basic_streambuf<char,std::char_traits<char>> *std::basic_ios<char,std::char_traits<char>>::rdbuf(std::basic_streambuf<char,std::char_traits<char>> *)': cannot convert argument 1 from 'int' to 'std::basic_streambuf<char,std::char_traits<char>> *'
+  c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(33): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast

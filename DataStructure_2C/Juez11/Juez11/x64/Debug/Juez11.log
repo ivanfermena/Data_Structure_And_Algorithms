@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ivan fermena\documents\github\data_structure_and_algorithms\datastructure_2c\juez11\juez11\main.cpp(18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Juez11.vcxproj -> C:\Users\Ivan Fermena\Documents\GitHub\Data_Structure_And_Algorithms\DataStructure_2C\Juez11\x64\Debug\Juez11.exe
+  Juez11.vcxproj -> C:\Users\Ivan Fermena\Documents\GitHub\Data_Structure_And_Algorithms\DataStructure_2C\Juez11\x64\Debug\Juez11.pdb (Partial PDB)
